@@ -1,14 +1,29 @@
 <template>
-  <ComicsComponent/>
+  <SumaCheckbox/>
+  <hr>
+  <SeleccionMultiple/>
+  <hr>
+  <SeleccionMultipleV2/>
+  <hr>
+  <PadreDeportes/> 
+  <hr>
+  
 </template>
 
 <script>
-import ComicsComponent from './components/ComicsComponent.vue'
+import PadreDeportes from './components/PadreDeportes.vue'
+import SeleccionMultiple from './components/SeleccionMultiple.vue'
+import SeleccionMultipleV2 from './components/SeleccionMultipleV2.vue'
+import SumaCheckbox from './components/SumaCheckbox.vue'
+
 
 export default {
   name: 'App',
   components: {
-    ComicsComponent
+    SumaCheckbox,
+    SeleccionMultiple,
+    SeleccionMultipleV2,
+    PadreDeportes 
   }
 }
 </script>
