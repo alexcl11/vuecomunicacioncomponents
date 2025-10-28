@@ -12,6 +12,5 @@
                 this.$emit("sumarNumerosParent", this.numero)
             }
         }
-
     }
 </script>

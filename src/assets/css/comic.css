@@ -1,0 +1,22 @@
+.rojo{
+    background-color:red;
+    color: white;
+}
+.azul{
+    background-color:blue;
+    color: white;
+}
+.verde{
+    background-color:green;
+    color:white;
+
+}
+img {
+    width: 150px;
+    height: 250px;
+}
+
+div#comics{
+    float: left;
+    padding: 5px;
+}

@@ -1,14 +1,14 @@
 <template>
-  <PadreSumar/>
+  <ComicsComponent/>
 </template>
 
 <script>
-import PadreSumar from './components/PadreSumar.vue'
+import ComicsComponent from './components/ComicsComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    PadreSumar
+    ComicsComponent
   }
 }
 </script>
