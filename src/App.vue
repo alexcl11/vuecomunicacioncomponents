@@ -1,5 +1,5 @@
 <template>
-<MenuComponent/>
+<MenuTablaMultiplicar/>
 <router-view></router-view>
   <!-- <SumaCheckbox/>
   <hr>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import MenuComponent from './components/MenuComponent.vue'
+import MenuTablaMultiplicar from './components/MenuTablaMultiplicar.vue'
 
 // import PadreDeportes from './components/PadreDeportes.vue'
 // import SeleccionMultiple from './components/SeleccionMultiple.vue'
@@ -24,7 +24,7 @@ import MenuComponent from './components/MenuComponent.vue'
 export default {
   name: 'App',
   components: {
-    MenuComponent
+    MenuTablaMultiplicar
     // SumaCheckbox,
     // SeleccionMultiple,
     // SeleccionMultipleV2,

@@ -5,11 +5,7 @@
     <button @click="generarNumerosAleatorios">Generar CheckBox</button>
     <form  @change.prevent="sumarSeleccionados">
         <div v-for="numero in numeros" :key="numero">
-            <input 
-                type="checkbox"
-                :value="numero"
-                v-model="numerosSeleccionados"
-            />
+            <input type="checkbox" :value="numero" v-model="numerosSeleccionados"/>
             <label>{{numero}}</label>
         </div>
     </form>

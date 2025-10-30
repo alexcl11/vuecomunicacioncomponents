@@ -2,6 +2,7 @@
     <h1>Numero Doble</h1>
     <h3>{{mensaje}}</h3>
     <h3 v-if="numeroDoblado">El número doblado es: {{numeroDoblado}}</h3>
+    <button v-on:click="redirectHome" class="btn btn-primary">Volver al Home</button>
 </template>
 <script>
     export default{
@@ -42,6 +43,9 @@
             doblarNumero() {
                 let numeroParam =  this.$route.params.num;
                 this.numeroDoblado = numeroParam*2
+            },
+            redirectHome(){
+                this.$router.push("/")
             }
         }
     }
