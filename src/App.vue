@@ -1,29 +1,34 @@
 <template>
-  <SumaCheckbox/>
+<MenuComponent/>
+<router-view></router-view>
+  <!-- <SumaCheckbox/>
   <hr>
   <SeleccionMultiple/>
   <hr>
   <SeleccionMultipleV2/>
   <hr>
   <PadreDeportes/> 
-  <hr>
+  <hr> -->
   
 </template>
 
 <script>
-import PadreDeportes from './components/PadreDeportes.vue'
-import SeleccionMultiple from './components/SeleccionMultiple.vue'
-import SeleccionMultipleV2 from './components/SeleccionMultipleV2.vue'
-import SumaCheckbox from './components/SumaCheckbox.vue'
+import MenuComponent from './components/MenuComponent.vue'
+
+// import PadreDeportes from './components/PadreDeportes.vue'
+// import SeleccionMultiple from './components/SeleccionMultiple.vue'
+// import SeleccionMultipleV2 from './components/SeleccionMultipleV2.vue'
+// import SumaCheckbox from './components/SumaCheckbox.vue'
 
 
 export default {
   name: 'App',
   components: {
-    SumaCheckbox,
-    SeleccionMultiple,
-    SeleccionMultipleV2,
-    PadreDeportes 
+    MenuComponent
+    // SumaCheckbox,
+    // SeleccionMultiple,
+    // SeleccionMultipleV2,
+    // PadreDeportes 
   }
 }
 </script>

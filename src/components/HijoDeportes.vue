@@ -12,7 +12,8 @@
                 // PARA ENVIAR INFORMACION SE REALIZA A PARTIR DE LA LLAMADA
                 // CON CADA PARANETRO SEPARADO CON COMAS, DENTRO DEL METODO EMIT
                 this.$emit("seleccionarFavoritoParent", this.nombreDeporte)
-            }
+            },
+            
         }
     }
 </script>
